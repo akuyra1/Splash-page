@@ -1,8 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main-container {
+    border: 2px solid black;
+    border-radius: 2em;
+    margin: 10px;
+    padding: 10px;
+    height: 65vh;
+    width: 54vw;
+}
+
+.top-section-container {
+    /* border: 1px solid black; */
+    margin: 150px 150px;
+    text-align: center;
+}
 
 
+.chomping-message {
+    font-size: 28px;
+}
 
+.top-section-container h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
 
+.buying-selling {
+    font-size: 27px;
+    color: rgb(168, 168, 168);
+}
 
+.left-container, .right-container {
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    margin: -80px 370px;
+}
+.left-container, .right-container p {
+    font-size: 28px;
+}
 
+.right-container {
+    float: right;
+    margin-left: -50px;
+    margin-top: -120px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    font-size: 16px;
+}
 
 
